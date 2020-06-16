@@ -11,6 +11,7 @@ class PDDB(object):
         mnames = ['movie_id', 'title', 'genres']            
         self.movies = pd.read_table('./initdata/movies.dat', sep='::', header=None, names=mnames)
     
+    
     def merge_tables(self):
         """关联三张表"""
 

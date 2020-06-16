@@ -20,6 +20,7 @@ class TestPdata(unittest.TestCase):
 
         sorted_by_diff = self.db.sorted_by_diff()
         print(sorted_by_diff[:10])
+        
         # 男性喜欢但是女性评分不高的电影
         print(sorted_by_diff[::-1][:10])
 
